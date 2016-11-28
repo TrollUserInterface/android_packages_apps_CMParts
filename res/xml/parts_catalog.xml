@@ -73,11 +73,6 @@
           android:fragment="org.cyanogenmod.cmparts.statusbar.StatusBarSettings"
           cm:xmlRes="@xml/status_bar_settings" />
 
-    <part android:key="cmstats"
-          android:title="@string/anonymous_statistics_title"
-          android:fragment="org.cyanogenmod.cmparts.cmstats.AnonymousStats"
-          cm:xmlRes="@xml/anonymous_stats" />
-
     <part android:key="privacy_guard_manager"
           android:title="@*cyanogenmod.platform:string/privacy_guard_manager_title"
           android:fragment="org.cyanogenmod.cmparts.privacyguard.PrivacyGuardManager"
