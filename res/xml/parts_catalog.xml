@@ -68,11 +68,6 @@
           android:fragment="org.cyanogenmod.cmparts.hardware.DisplayRotation"
           cm:xmlRes="@xml/display_rotation" />
 
-    <part android:key="status_bar_settings"
-          android:title="@string/status_bar_title"
-          android:fragment="org.cyanogenmod.cmparts.statusbar.StatusBarSettings"
-          cm:xmlRes="@xml/status_bar_settings" />
-
     <part android:key="privacy_guard_manager"
           android:title="@*cyanogenmod.platform:string/privacy_guard_manager_title"
           android:fragment="org.cyanogenmod.cmparts.privacyguard.PrivacyGuardManager"
