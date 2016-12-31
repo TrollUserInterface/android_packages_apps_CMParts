@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
+	          (C) 2017 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="cmparts_title">CyanogenMod Settings</string>
+    <string name="cmparts_title">LineageOS Settings</string>
 
     <!-- Generic stuff used everywhere -->
     <string name="loading">Loading\u2026</string>
@@ -41,7 +42,7 @@
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_title">Privacy</string>
-    <string name="privacy_settings_category" translatable="false">CyanogenMod</string>
+    <string name="privacy_settings_category" translatable="false">LineageOS</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
