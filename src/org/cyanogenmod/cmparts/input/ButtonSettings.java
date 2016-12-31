@@ -67,7 +67,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
     private static final String KEY_SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
     private static final String DISABLE_NAV_KEYS = "disable_nav_keys";
-
     private static final String KEY_POWER_END_CALL = "power_end_call";
     private static final String KEY_HOME_ANSWER_CALL = "home_answer_call";
     private static final String KEY_VOLUME_MUSIC_CONTROLS = "volbtn_music_controls";
@@ -262,6 +261,22 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 mHomeAnswerCall = null;
             }
 
+            Action defaultLongPressAction = Action.fromIntSafe(res.getInteger(
+                    com.android.internal.R.integer.config_longPressOnHomeBehavior));
+
+            Action defaultDoubleTapAction = Action.fromIntSafe(res.getInteger(
+                    com.android.internal.R.integer.config_doubleTapOnHomeBehavior));
+
+            Action longPressAction = Action.fromSettings(resolver,
+                    CMSettings.System.KEY_HOME_LONG_PRESS_ACTION,
+                    defaultLongPressAction);
+            mHomeLongPressAction = initActionList(KEY_HOME_LONG_PRESS, longPressAction);
+
+            Action doubleTapAction = Action.fromSettings(resolver,
+                    CMSettings.System.KEY_HOME_DOUBLE_TAP_ACTION,
+                    defaultDoubleTapAction);
+            mHomeDoubleTapAction = initActionList(KEY_HOME_DOUBLE_TAP, doubleTapAction);
+
             hasAnyBindableKey = true;
         } else {
             prefScreen.removePreference(homeCategory);
@@ -448,6 +463,71 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         return list;
     }
 
+    private ListPreference initRecentsLongPressAction(String key) {
+        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
+        list.setOnPreferenceChangeListener(this);
+
+        // Read the componentName from Settings.Secure, this is the user's prefered setting
+        String componentString = CMSettings.Secure.getString(getContentResolver(),
+                CMSettings.Secure.RECENTS_LONG_PRESS_ACTIVITY);
+        ComponentName targetComponent = null;
+        if (componentString == null) {
+            list.setSummary(getString(R.string.hardware_keys_action_split_screen));
+        } else {
+            targetComponent = ComponentName.unflattenFromString(componentString);
+        }
+
+        // Dyanamically generate the list array,
+        // query PackageManager for all Activites that are registered for ACTION_RECENTS_LONG_PRESS
+        PackageManager pm = getPackageManager();
+        Intent intent = new Intent(cyanogenmod.content.Intent.ACTION_RECENTS_LONG_PRESS);
+        List<ResolveInfo> recentsActivities = pm.queryIntentActivities(intent,
+                PackageManager.MATCH_DEFAULT_ONLY);
+        if (recentsActivities.size() == 0) {
+            // No entries available, disable
+            list.setSummary(getString(R.string.hardware_keys_action_split_screen));
+            CMSettings.Secure.putString(getContentResolver(),
+                    CMSettings.Secure.RECENTS_LONG_PRESS_ACTIVITY, null);
+            list.setEnabled(false);
+            return list;
+        }
+
+        CharSequence[] entries = new CharSequence[recentsActivities.size() + 1];
+        CharSequence[] values = new CharSequence[recentsActivities.size() + 1];
+        // First entry is always default last app
+        entries[0] = getString(R.string.hardware_keys_action_split_screen);
+        values[0] = "";
+        list.setValue(values[0].toString());
+        int i = 1;
+        for (ResolveInfo info : recentsActivities) {
+            try {
+                // Use pm.getApplicationInfo for the label,
+                // we cannot rely on ResolveInfo that comes back from queryIntentActivities.
+                entries[i] = pm.getApplicationInfo(info.activityInfo.packageName, 0).loadLabel(pm);
+            } catch (PackageManager.NameNotFoundException e) {
+                Log.e(TAG, "Error package not found: " + info.activityInfo.packageName, e);
+                // Fallback to package name
+                entries[i] = info.activityInfo.packageName;
+            }
+
+            // Set the value to the ComponentName that will handle this intent
+            ComponentName entryComponent = new ComponentName(info.activityInfo.packageName,
+                    info.activityInfo.name);
+            values[i] = entryComponent.flattenToString();
+            if (targetComponent != null) {
+                if (entryComponent.equals(targetComponent)) {
+                    // Update the selected value and the preference summary
+                    list.setSummary(entries[i]);
+                    list.setValue(values[i].toString());
+                }
+            }
+            i++;
+        }
+        list.setEntries(entries);
+        list.setEntryValues(values);
+        return list;
+    }
+
     private void handleActionListChange(ListPreference pref, Object newValue, String setting) {
         String value = (String) newValue;
         int index = pref.findIndexOfValue(value);
@@ -465,11 +545,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mHomeLongPressAction) {
-            handleActionListChange((ListPreference) preference, newValue,
+            handleActionListChange(mHomeLongPressAction, newValue,
                     CMSettings.System.KEY_HOME_LONG_PRESS_ACTION);
             return true;
         } else if (preference == mHomeDoubleTapAction) {
-            handleActionListChange((ListPreference) preference, newValue,
+            handleActionListChange(mHomeDoubleTapAction, newValue,
                     CMSettings.System.KEY_HOME_DOUBLE_TAP_ACTION);
             return true;
         } else if (preference == mMenuPressAction) {
