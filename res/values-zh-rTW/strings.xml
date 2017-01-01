@@ -16,6 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cmparts_title">CyanogenMod 設定</string>
   <!-- Generic stuff used everywhere -->
   <!-- Privacy Settings Header item -->
   <!-- Privacy Guard -->
