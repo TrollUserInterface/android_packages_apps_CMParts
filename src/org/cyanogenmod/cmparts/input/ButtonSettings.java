@@ -74,6 +74,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE
             = "camera_double_tap_power_gesture";
 
+    private static final String KILL_APP_LONGPRESS_TIMEOUT = "kill_app_longpress_timeout";
+
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_BACK = "back_key";
@@ -83,6 +85,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String CATEGORY_CAMERA = "camera_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
     private static final String CATEGORY_BACKLIGHT = "key_backlight";
+
+
 
     // Available custom actions to perform on a key press.
     // Must match values for KEY_HOME_LONG_PRESS_ACTION in:
@@ -140,6 +144,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mPowerEndCall;
     private SwitchPreference mHomeAnswerCall;
     private SwitchPreference mCameraDoubleTapPowerGesture;
+
+    private ListPreference mKillAppLongpressTimeout;
 
     private Handler mHandler;
 
@@ -207,6 +213,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         // Force Navigation bar related options
         mDisableNavigationKeys = (SwitchPreference) findPreference(DISABLE_NAV_KEYS);
+
+        // Back long press timeout
+        mKillAppLongpressTimeout = (ListPreference) findPreference(KILL_APP_LONGPRESS_TIMEOUT);
+        mKillAppLongpressTimeout.setOnPreferenceChangeListener(this);
 
         final CMHardwareManager hardware = CMHardwareManager.getInstance(getActivity());
 
@@ -448,6 +458,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (incallHomeBehavior == CMSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER);
             mHomeAnswerCall.setChecked(homeButtonAnswersCall);
         }
+        updateKillAppLongpressTimeoutOptions();
     }
 
     private ListPreference initActionList(String key, Action value) {
@@ -585,6 +596,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             Settings.Secure.putInt(getContentResolver(), CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                     value ? 0 : 1 /* Backwards because setting is for disabling */);
             return true;
+        } else if (preference == mKillAppLongpressTimeout) {
+            writeKillAppLongpressTimeoutOptions(newValue);
+            return true;
         }
         return false;
     }
@@ -701,5 +715,32 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static boolean isCameraDoubleTapPowerGestureAvailable(Resources res) {
         return res.getBoolean(
                 com.android.internal.R.bool.config_cameraDoubleTapPowerGestureEnabled);
+    }
+
+    private void writeKillAppLongpressTimeoutOptions(Object newValue) {
+        int index = mKillAppLongpressTimeout.findIndexOfValue((String) newValue);
+        int value = Integer.valueOf((String) newValue);
+        Settings.Secure.putInt(getActivity().getContentResolver(),
+                Settings.Secure.KILL_APP_LONGPRESS_TIMEOUT, value);
+        mKillAppLongpressTimeout.setSummary(mKillAppLongpressTimeout.getEntries()[index]);
+    }
+
+    private void updateKillAppLongpressTimeoutOptions() {
+        String value = Settings.Secure.getString(getActivity().getContentResolver(),
+                Settings.Secure.KILL_APP_LONGPRESS_TIMEOUT);
+        if (value == null) {
+            value = "";
+        }
+
+        CharSequence[] values = mKillAppLongpressTimeout.getEntryValues();
+        for (int i = 0; i < values.length; i++) {
+            if (value.contentEquals(values[i])) {
+                mKillAppLongpressTimeout.setValueIndex(i);
+                mKillAppLongpressTimeout.setSummary(mKillAppLongpressTimeout.getEntries()[i]);
+                return;
+            }
+        }
+        mKillAppLongpressTimeout.setValueIndex(0);
+        mKillAppLongpressTimeout.setSummary(mKillAppLongpressTimeout.getEntries()[0]);
     }
 }
