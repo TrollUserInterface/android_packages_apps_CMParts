@@ -41,6 +41,7 @@
     <protected-broadcast android:name="cyanogenmod.platform.app.profiles.PROFILES_STATE_CHANGED" />
     <protected-broadcast android:name="org.cyanogenmod.cmparts.PART_CHANGED" />
     <protected-broadcast android:name="org.cyanogenmod.cmparts.REFRESH_PART" />
+    <protected-broadcast android:name="org.cyanogenmod.cmparts.gestures.UPDATE_SETTINGS" />
 
     <application android:label="@string/cmparts_title"
             android:theme="@style/Theme.Settings"
@@ -106,6 +107,9 @@
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="privacy_settings" />
         </activity-alias>
+
+        <!-- Button settings (dashboard) -->
+        <activity android:name=".gestures.KeyHandler" />
 
         <!-- Profiles settings (dashboard) -->
         <activity-alias
