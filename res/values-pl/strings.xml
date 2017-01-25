@@ -219,8 +219,8 @@
   <string name="contributions_info_menu">Informacje o twórcach</string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Statystyki CyanogenMod</string>
-  <string name="anonymous_statistics_summary">Pomóż ulepszyć CyanogenMod, pozwalając na wysyłanie anonimowych statystyk</string>
+  <string name="anonymous_statistics_title">Statystyki LineageOS</string>
+  <string name="anonymous_statistics_summary">Pomóż ulepszyć LineageOS, pozwalając na wysyłanie anonimowych statystyk</string>
   <string name="preview_data_title">Podgląd danych</string>
   <string name="view_stats_title">Zobacz statystyki</string>
   <!-- Anonymous Statistics - Preview -->
@@ -252,6 +252,7 @@
   <string name="perf_profile_settings_title">Oszczędzanie baterii i wydajność</string>
   <string name="perf_profile_overview_summary">Bieżący profil: <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
   <string name="perf_profile_fail_toast">Profil wydajności jest obecnie niedostępny</string>
+  <string name="auto_power_save_never">Nigdy</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Rozszerzony pulpit</string>
   <string name="expanded_desktop_style_hide_nothing">Nic nie ukrywaj</string>

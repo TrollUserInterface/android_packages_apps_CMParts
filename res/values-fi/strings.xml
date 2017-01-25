@@ -174,16 +174,21 @@
   <string name="camera_sleep_on_release_summary">Puolikas painallus pitää näytön päällä vain kun näppäintä pidetään alhaalla</string>
   <string name="camera_launch_title">Käynnistä kamera</string>
   <string name="camera_launch_summary">Pitkä painallus ja vapautus avaa kameran</string>
+  <string name="volbtn_music_controls_title">Toiston ohjaus</string>
+  <string name="volbtn_music_controls_summary">Vaihda kappaletta pitämällä äänenvoimakkuusnäppäimiä pohjassa näytön ollessa suljettu</string>
   <string name="volbtn_cursor_control_title">Kohdistimen ohjaus näppäimistöllä</string>
   <string name="volbtn_cursor_control_off">Pois käytöstä</string>
   <string name="volbtn_cursor_control_on">Äänenvoimakkuus ylös/alas ohjaa kohdistinta vasemmalle/oikealle</string>
   <string name="volbtn_cursor_control_on_reverse">Äänenvoimakkuus ylös/alas ohjaa kohdistinta oikealle/vasemmalle</string>
   <string name="power_end_call_title">Lopeta puhelu</string>
+  <string name="power_end_call_summary">Lopeta puhelu painamalla virtanäppäintä</string>
   <string name="swap_volume_buttons_title">Käännä</string>
   <string name="swap_volume_buttons_summary">Vaihda äänenvoimakkuusnäppäimien paikkoja näytön ollessa käännettynä</string>
+  <string name="button_wake_title">Herätä laite</string>
   <string name="volume_answer_call_title">Vastaa puheluun</string>
   <string name="volume_answer_call_summary">Vastaa puheluun painamalla äänenvoimakkuusnäppäintä</string>
   <string name="home_answer_call_title">Vastaa puheluun</string>
+  <string name="home_answer_call_summary">Vastaa puheluun painamalla kotinäppäintä</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Taustavalo</string>
   <string name="button_backlight_enabled">Valaise painikkeet</string>
@@ -422,10 +427,10 @@
                  <b>Päivitetty:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">CyanogenMod-tilastot</string>
-  <string name="anonymous_statistics_summary">Auta tekemään CyanogenModista parempi tarjoamalla anonyymejä tilastoraportteja</string>
+  <string name="anonymous_statistics_title">LineageOS-tilastot</string>
+  <string name="anonymous_statistics_summary">Auta tekemään LineageOSista parempi tarjoamalla anonyymejä tilastoraportteja</string>
   <string name="anonymous_statistics_warning_title">Tietoja</string>
-  <string name="anonymous_statistics_warning">CyanogenMod-tilastojen käyttöönotto mahdollistaa anonyymien tietojen lähettämisen CyanogenModin kehittäjille, jotta laitteiden järjestelmäasennuksia voidaan seurata. Tiedot sisältävät yksilöllisen tunnisteen, joka ei vaaranna henkilökohtaisia tietojasi. Tietoja lähetetään jokaisella uudelleenkäynnistyskerralla.\n\nValitse Esikatsele tietoja nähdäksesi, millaisia tietoja laitteestasi lähetetään.</string>
+  <string name="anonymous_statistics_warning">LineageOS-tilastojen käyttöönotto mahdollistaa anonyymien tietojen lähettämisen LineageOSin kehittäjille, jotta laitteiden järjestelmäasennuksia voidaan seurata. Tiedot sisältävät yksilöllisen tunnisteen, joka ei vaaranna henkilökohtaisia tietojasi. Tietoja lähetetään jokaisella uudelleenkäynnistyskerralla.\n\nValitse Esikatsele tietoja nähdäksesi, millaisia tietoja laitteestasi lähetetään.</string>
   <string name="enable_reporting_title">Ota raportointi käyttöön</string>
   <string name="preview_data_title">Esikatsele tietoja</string>
   <string name="view_stats_title">Näytä tilastot</string>
@@ -437,7 +442,6 @@
   <string name="preview_country_title">Valtio</string>
   <string name="preview_carrier_title">Operaattori</string>
   <string name="stats_collection_title">Tilastojen keräys</string>
-  <string name="stats_collection_summary">Sallii käyttötietojen keräämisen kun käytössä</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Näytön automaattinen kierto</string>
   <string name="display_rotation_title">Asennon asetukset</string>
@@ -476,10 +480,11 @@
   <string name="power_save_title">Äärimmäinen virransäästö</string>
   <string name="power_save_summary">Rajoita laitteen suorituskykyä ja taustatoimintaa säästääksesi virtaa</string>
   <string name="auto_power_save_title">Automaattinen virransäästö</string>
-  <string name="auto_power_save_summary_on">Ota virransäästötila automaattisesti käyttöön kun akkua on jäljellä %s</string>
+  <string name="auto_power_save_summary_on">Ota virransäästötila automaattisesti käyttöön kun akkua on jäljellä %s prosenttia</string>
   <string name="auto_power_save_summary_off">Älä ota virransäästötilaa käyttöön automaattisesti</string>
   <string name="app_perf_profiles_title">Automaattinen optimointi</string>
   <string name="app_perf_profiles_summary">Valitse automaattisesti sopiva suorituskykyprofiili eri sovelluksille</string>
+  <string name="auto_power_save_never">Ei koskaan</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Laajennettu työpöytä</string>
   <string name="expanded_desktop_settings_summary">Laajenna käytettävissä oleva työpöydän tila piilottamalla tilapalkki, navigointipalkki tai molemmat</string>

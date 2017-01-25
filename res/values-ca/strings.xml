@@ -135,6 +135,8 @@
   <string name="live_display_color_profile_basic_summary">Utilitza la pantalla sense calibrar</string>
   <string name="live_display_color_profile_adaptive_title">Adaptativa</string>
   <string name="live_display_color_profile_adaptive_summary">Els colors s\'adapten a les condicions ambientals</string>
+  <string name="live_display_color_profile_reading_title">S\'està llegint</string>
+  <string name="live_display_color_profile_reading_summary">Colors càlids per cansar menys els ulls</string>
   <string name="color_calibration_title">Calibració de color</string>
   <string name="color_calibration_summary">Calibra els colors de la pantalla</string>
   <string name="color_red_title">Vermell</string>
@@ -427,10 +429,10 @@
                  <b>Darrera actualització:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Estadístiques de CyanogenMod</string>
-  <string name="anonymous_statistics_summary">Ajuda a fer millor CyanogenMod optant a transmetre estadístiques anònimes</string>
+  <string name="anonymous_statistics_title">Estadístiques de LineageOS</string>
+  <string name="anonymous_statistics_summary">Ajuda a fer millor LineageOS optant a transmetre estadístiques anònimes</string>
   <string name="anonymous_statistics_warning_title">Quant a</string>
-  <string name="anonymous_statistics_warning">Optant a les estadístiques de CyanogenMod permetràs que dades no-personals siguin transmeses als desenvolupadors de CyanogenMod per rastrejar les intal·lacions individuals a través dels dispositius. La informació transmesa inclou un identificador únic, que no compromet la privacitat o les dades personals. Les dades son transmeses durant cada arrancada.\n\nPer un exemple de les dades transmeses, pica a vista prèvia de Dades.</string>
+  <string name="anonymous_statistics_warning">Optant a les estadístiques de LineageOS permetràs que dades no-personals siguin transmeses als desenvolupadors de LineageOS per rastrejar les intal·lacions individuals a través dels dispositius. La informació transmesa inclou un identificador únic, que no compromet la privacitat o les dades personals. Les dades son transmeses durant cada arrancada.\n\nPer un exemple de les dades transmeses, pica a vista prèvia de Dades.</string>
   <string name="enable_reporting_title">Activa els informes</string>
   <string name="preview_data_title">Vista prèvia de Dades</string>
   <string name="view_stats_title">Veure estadístiques</string>
@@ -442,7 +444,7 @@
   <string name="preview_country_title">País</string>
   <string name="preview_carrier_title">Operadora</string>
   <string name="stats_collection_title">Recollida d\'estadístiques</string>
-  <string name="stats_collection_summary">Quan està activat, permet la recollida de mètriques</string>
+  <string name="stats_collection_summary">Permet recollir dades d\'instal·lació i estadístiques del dispositiu</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Auto-rota la pantalla</string>
   <string name="display_rotation_title">Configuració de rotació</string>
@@ -481,10 +483,11 @@
   <string name="power_save_title">Estalviador d\'energia extrem</string>
   <string name="power_save_summary">Limita el rendiment del dispositiu i l\'activitat en segon pla per estalviar energia</string>
   <string name="auto_power_save_title">Estalviador d\'energia automàtic</string>
-  <string name="auto_power_save_summary_on">Habilita el mode d\'estalvi d\'energia automàticament quan s\'arribi al %s bateria</string>
+  <string name="auto_power_save_summary_on">Habilita el mode d\'estalvi d\'energia automàticament quan s\'arribi al %s per cent de bateria</string>
   <string name="auto_power_save_summary_off">No habilitis el mode d\'estalvi d\'energia automàticament</string>
   <string name="app_perf_profiles_title">Optimització automàtica</string>
   <string name="app_perf_profiles_summary">Escull automàticament un perfil de rendiment adequat per aplicacions i patrons d\'utilització</string>
+  <string name="auto_power_save_never">Mai</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Escriptori extès</string>
   <string name="expanded_desktop_settings_summary">Amplia el teu espai disponible a l\'escriptori amagant la barra d\'estat, la barra de navegació o els dos</string>

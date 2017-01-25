@@ -102,7 +102,7 @@
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Verlichtingsinstellingen</string>
   <string name="led_notification_text">LED-verlichting ingeschakeld door instellingen</string>
-  <string name="notification_light_no_apps_summary">Om controle per app toe te voegen, activeer %1$s en klik \'\u002b\' op de menubalk</string>
+  <string name="notification_light_no_apps_summary">Om controle per app toe te voegen, activeer %1$s en tik \'\u002b\' op de menubalk</string>
   <!-- LiveDisplay -->
   <string name="live_display_summary">Uw scherm optimaliseren aan de hand van tijdstip op de dag en lichtomstandigheden om de leesbaarheid te verbeteren en oogvermoeidheid te verminderen</string>
   <string name="live_display_mode">Weergavemodus</string>
@@ -380,13 +380,12 @@
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
   <string name="anonymous_statistics_warning_title">Over</string>
-  <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van CyanogenMod verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
+  <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van LineageOS verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
   <string name="enable_reporting_title">Statistieken verzenden</string>
   <!-- Anonymous Statistics - Preview -->
   <string name="preview_country_title">Land</string>
   <string name="preview_carrier_title">Provider</string>
   <string name="stats_collection_title">Verzamelen van statistieken</string>
-  <string name="stats_collection_summary">Indien ingeschakeld, staat het verzamelen van statistieken toe</string>
   <!-- Display : Rotation  -->
   <string name="display_rotation_unit">graden</string>
   <!-- Weather -->

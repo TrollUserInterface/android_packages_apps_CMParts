@@ -174,16 +174,21 @@
   <string name="camera_sleep_on_release_summary">Polupritisak će držati zaslon uključen samo dok se tipka drži pritisnuta</string>
   <string name="camera_launch_title">Pokreni kameru</string>
   <string name="camera_launch_summary">Dugi pritisak i puštanje će pokrenuti kameru</string>
+  <string name="volbtn_music_controls_title">Kontrola reprodukcije</string>
+  <string name="volbtn_music_controls_summary">Preskačite pjesme dugim pritiskom gumba za glasnoću kad je zaslon isključen.</string>
   <string name="volbtn_cursor_control_title">Kontrola pokazivača tipkovnice</string>
   <string name="volbtn_cursor_control_off">Onemogućeno</string>
   <string name="volbtn_cursor_control_on">Tipka za glasnoću gore/dolje pomiče kursor lijevo/desno</string>
   <string name="volbtn_cursor_control_on_reverse">Tipka za glasnoću gore/dolje pomiče kursor lijevo/desno</string>
   <string name="power_end_call_title">Završi poziv</string>
+  <string name="power_end_call_summary">Prekid trenutnog poziva pritiskom na gumb za uključivanje</string>
   <string name="swap_volume_buttons_title">Preorijentacija</string>
   <string name="swap_volume_buttons_summary">Zamijeni tipke za glasnoću kada je zaslon rotiran</string>
+  <string name="button_wake_title">Buđenje uređaja</string>
   <string name="volume_answer_call_title">Odgovori na poziv</string>
   <string name="volume_answer_call_summary">Odgovori na dolazne pozive pritiskom na tipke za podešavanje glasnoće</string>
   <string name="home_answer_call_title">Odgovori na poziv</string>
+  <string name="home_answer_call_summary">Odgovorite na dolazne pozive pritiskom na početnu tipku.</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Pozadinsko osvjetljenje</string>
   <string name="button_backlight_enabled">Osvjetljenje tipki</string>
@@ -422,10 +427,10 @@
 <b>Zadnje ažuriranje:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">CyanogenMod statistika</string>
-  <string name="anonymous_statistics_summary">Pomozite nam poboljšati CyanogenMod slanjem anonimnih statističkih izvješća</string>
+  <string name="anonymous_statistics_title">LineageOS statistika</string>
+  <string name="anonymous_statistics_summary">Pomozite nam poboljšati LineageOS slanjem anonimnih statističkih izvješća</string>
   <string name="anonymous_statistics_warning_title">O</string>
-  <string name="anonymous_statistics_warning">Omogućavanjem slanja CyanogenMod statistike dozvolit će se da se neosobni podaci dostave razvojnom timu CyanogenMod-a kako bi se pratio broj pojedinačnih instalacija na različite uređaje. Informacije koje se šalju sadrže jedinstvenu identifikaciju koja ne kompromitira privatnost ili osobne podatke. Podaci se šalju pri svakom pokretanju uređaja.\n\nZa primjer podataka koji se šalju, dodirnite pregled podataka.</string>
+  <string name="anonymous_statistics_warning">Omogućavanjem slanja LineageOS statistike dozvolit će se da se neosobni podaci dostave razvojnom timu LineageOS-a kako bi se pratio broj pojedinačnih instalacija na različite uređaje. Informacije koje se šalju sadrže jedinstvenu identifikaciju koja ne kompromitira privatnost ili osobne podatke. Podaci se šalju pri svakom pokretanju uređaja.\n\nZa primjer podataka koji se šalju, dodirnite pregled podataka.</string>
   <string name="enable_reporting_title">Omogući izvješća</string>
   <string name="preview_data_title">Pretpregled podataka</string>
   <string name="view_stats_title">Vidi statistiku</string>
@@ -437,7 +442,6 @@
   <string name="preview_country_title">Zemlja</string>
   <string name="preview_carrier_title">Operater</string>
   <string name="stats_collection_title">Prikupljene statistike</string>
-  <string name="stats_collection_summary">Kada je omogućeno dozvoljava metričku kolekciju</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Autom. rotacija zaslona</string>
   <string name="display_rotation_title">Postavke rotacije</string>
@@ -476,10 +480,10 @@
   <string name="power_save_title">Ekstremna ušteda energije</string>
   <string name="power_save_summary">Ograničite performanse uređaja i pozadinske aktivnosti radi uštede energije.</string>
   <string name="auto_power_save_title">Automatska ušteda energije</string>
-  <string name="auto_power_save_summary_on">Automatski omogućite način uštede energije na %s baterije.</string>
   <string name="auto_power_save_summary_off">Ne omogućuj automatski način uštede energije</string>
   <string name="app_perf_profiles_title">Automatska optimizacija</string>
   <string name="app_perf_profiles_summary">Automatsko biranje prigodnog profila izvedbe za razne aplikacije i uzorke korištenja.</string>
+  <string name="auto_power_save_never">Nikad</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Proširena radna površina</string>
   <string name="expanded_desktop_settings_summary">Proširi prostora radne površine koje skriva traku statusa, navigacijsku traku ili oboje</string>

@@ -427,10 +427,10 @@
                  <b>Seneste opdatering:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">CyanogenMod-statistikker</string>
-  <string name="anonymous_statistics_summary">Hjælp med at gøre CyanogenMod bedre ved at deltage i rapportering af anonyme statistikker</string>
+  <string name="anonymous_statistics_title">LineageOS-statistikker</string>
+  <string name="anonymous_statistics_summary">Hjælp med at gøre LineageOS bedre ved at deltage i rapportering af anonyme statistikker</string>
   <string name="anonymous_statistics_warning_title">Om</string>
-  <string name="anonymous_statistics_warning">Deltagelse af CyanogenMod-statistikker vil tillade ikke-personlige data, der skal forelægges for udviklerne af CyanogenMod, at spore unikke installationer på tværs af enheder. De indsendte oplysninger omfatter en entydig indikator, som ikke kompromitterer dit privatliv eller personlige data. Dataene indsendes under hver opstart.\n\nFor et eksempel på de data, der er indsendt, skal du trykke på Få vist data.</string>
+  <string name="anonymous_statistics_warning">Deltagelse af LineageOS-statistikker vil tillade ikke-personlige data, der skal forelægges for udviklerne af LineageOS, at spore unikke installationer på tværs af enheder. De indsendte oplysninger omfatter en entydig indikator, som ikke kompromitterer dit privatliv eller personlige data. Dataene indsendes under hver opstart.\n\nFor et eksempel på de data, der er indsendt, skal du trykke på Få vist data.</string>
   <string name="enable_reporting_title">Aktivér rapportering</string>
   <string name="preview_data_title">Få vist data</string>
   <string name="view_stats_title">Vis statistikker</string>
@@ -442,7 +442,6 @@
   <string name="preview_country_title">Land</string>
   <string name="preview_carrier_title">Operatør</string>
   <string name="stats_collection_title">Indsamling af statistik</string>
-  <string name="stats_collection_summary">Når aktiveret, tillades indsamling af målinger</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Automatisk rotation af skærmen</string>
   <string name="display_rotation_title">Rotationsindstillinger</string>
@@ -481,10 +480,10 @@
   <string name="power_save_title">Ekstrem strømbesparelse</string>
   <string name="power_save_summary">Begræns enhed ydeevne og baggrundsaktivitet for at spare strøm</string>
   <string name="auto_power_save_title">Automatisk strømbesparelse</string>
-  <string name="auto_power_save_summary_on">Aktivér automatisk strømsparetilstand på %s batteri</string>
   <string name="auto_power_save_summary_off">Aktivér ikke strømsparetilstand automatisk</string>
   <string name="app_perf_profiles_title">Automatisk optimering</string>
   <string name="app_perf_profiles_summary">Vælg automatisk en passende ydeevneprofil for apps og brugsmønstre</string>
+  <string name="auto_power_save_never">Aldrig</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Udvidet skrivebord</string>
   <string name="expanded_desktop_settings_summary">Udvid din ledige plads på skrivebordet ved at skjule statuslinjen, navigationslinjen eller begge dele</string>

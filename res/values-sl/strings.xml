@@ -174,16 +174,21 @@
   <string name="camera_sleep_on_release_summary">Polpritisk bo ohranil zaslon vklopljen samo, ko je gumb pridržan</string>
   <string name="camera_launch_title">Zaženi fotoaparat</string>
   <string name="camera_launch_summary">Dolgi pritisk in izpustitev bo zagnal fotoaparat</string>
+  <string name="volbtn_music_controls_title">Nadzor predvajanja</string>
+  <string name="volbtn_music_controls_summary">Išči skladbe z dolgim pritiskom na tipki za glasnost, ko je zaslon izklopljen</string>
   <string name="volbtn_cursor_control_title">Nadzor kazalca s tipkovnico</string>
   <string name="volbtn_cursor_control_off">Onemogočen</string>
   <string name="volbtn_cursor_control_on">Glasnost gor/dol premakne kazalec levo/desno</string>
   <string name="volbtn_cursor_control_on_reverse">Glasnost gor/dol premakne kazalec desno/levo</string>
   <string name="power_end_call_title">Končaj klic</string>
+  <string name="power_end_call_summary">Končaj trenutni klic s pritiskom na gumb za vklop/izklop</string>
   <string name="swap_volume_buttons_title">Preusmeri</string>
   <string name="swap_volume_buttons_summary">Zamenjaj gumba za glasnost, kadar je zaslon zasukan</string>
+  <string name="button_wake_title">Zbudi napravo</string>
   <string name="volume_answer_call_title">Odgovori na klic</string>
   <string name="volume_answer_call_summary">Odgovori na dohodne klice s pritiskom na gumb za glasnost</string>
   <string name="home_answer_call_title">Odgovori na klic</string>
+  <string name="home_answer_call_summary">Odgovori na dohodne klice s pritiskom na gumb Domov</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Osvetlitev ozadja</string>
   <string name="button_backlight_enabled">Osvetli gumbe</string>
@@ -422,11 +427,11 @@
                  <b>Zadnja posodobitev:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Statistika CyanogenMod</string>
-  <string name="anonymous_statistics_summary">Pomagajte izboljšati CyanogenMod tako, da izberete pošiljanje anonimne statistike</string>
+  <string name="anonymous_statistics_title">Statistika LineageOS</string>
+  <string name="anonymous_statistics_summary">Pomagajte izboljšati LineageOS tako, da izberete pošiljanje anonimne statistike</string>
   <string name="anonymous_statistics_warning_title">O aplikaciji</string>
-  <string name="anonymous_statistics_warning">Izbira statistike CyanogenMod bo dovolila pošiljanje neosebnih podatkov
-        razvijalcem CyanogenModa, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
+  <string name="anonymous_statistics_warning">Izbira statistike LineageOS bo dovolila pošiljanje neosebnih podatkov
+        razvijalcem LineageOSa, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
         ki ne ogroža vaše zasebnosti in osebnih podatkov. Podatki so poslani ob vsakem zagonu.\n\nZa primer poslanih podatkov tapnite Predogled podatkov.</string>
   <string name="enable_reporting_title">Omogoči poročanje</string>
   <string name="preview_data_title">Predogled podatkov</string>
@@ -439,7 +444,6 @@
   <string name="preview_country_title">Država</string>
   <string name="preview_carrier_title">Ponudnik</string>
   <string name="stats_collection_title">Zbiranje statistike</string>
-  <string name="stats_collection_summary">Ko je omogočeno, dovoli zbiranje meritev</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Samodejno zasukaj zaslon</string>
   <string name="display_rotation_title">Nastavitve sukanja</string>
@@ -478,10 +482,10 @@
   <string name="power_save_title">Strogo varčevanje z energijo</string>
   <string name="power_save_summary">Omeji zmogljivost naprave in dejavnosti v ozadju za prihranek energije</string>
   <string name="auto_power_save_title">Samodejno varčevanje z energijo</string>
-  <string name="auto_power_save_summary_on">Samodejno omogoči način varčevanja z energijo, ko je stanje baterije %s</string>
   <string name="auto_power_save_summary_off">Ne omogočaj načina varčevanja z energijo samodejno</string>
   <string name="app_perf_profiles_title">Samodejna optimizacija</string>
   <string name="app_perf_profiles_summary">Samodejno izberi primerni zmogljivostni profil za aplikacije in vzorce uporabe</string>
+  <string name="auto_power_save_never">Nikoli</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Razširjeno namizje</string>
   <string name="expanded_desktop_settings_summary">Razširi razpoložljiv prostor namizja s skritjem vrstice stanja, vrstice za krmarjenje ali obeh</string>

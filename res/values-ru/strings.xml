@@ -442,7 +442,6 @@
   <string name="preview_country_title">Страна</string>
   <string name="preview_carrier_title">Оператор</string>
   <string name="stats_collection_title">Сбор статистики</string>
-  <string name="stats_collection_summary">Когда включено, разрешается сбор показателей</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Автоповорот экрана</string>
   <string name="display_rotation_title">Параметры вращения</string>
@@ -481,7 +480,7 @@
   <string name="power_save_title">Агрессивное энергосбережение</string>
   <string name="power_save_summary">Ограничение производительности и фоновой активности устройства для экономии энергии</string>
   <string name="auto_power_save_title">Автоматическое энергосбережение</string>
-  <string name="auto_power_save_summary_on">Автоматически включать энергосбережение на %s батареи</string>
+  <string name="auto_power_save_summary_on">Автоматически включать энергосбережение при уровне заряда %s</string>
   <string name="auto_power_save_summary_off">Не включать энергосбережение автоматически</string>
   <string name="app_perf_profiles_title">Автоматическая оптимизация</string>
   <string name="app_perf_profiles_summary">Автоматически переключать профиль производительности в зависимости от приложения</string>

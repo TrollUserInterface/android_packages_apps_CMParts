@@ -427,10 +427,10 @@
                  <b>Última atualização:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Estatísticas CyanogenMod</string>
-  <string name="anonymous_statistics_summary">Ajude a melhorar a CyanogenMod optando por ativar o envio do relatório de estatísticas anónimas</string>
+  <string name="anonymous_statistics_title">Estatísticas LineageOS</string>
+  <string name="anonymous_statistics_summary">Ajude a melhorar a LineageOS optando por ativar o envio do relatório de estatísticas anónimas</string>
   <string name="anonymous_statistics_warning_title">Acerca de</string>
-  <string name="anonymous_statistics_warning">Optar pelo envio de estatísticas CyanogenMod vai permitir que dados não pessoais sejam transmitidos aos desenvolvedores da CyanogenMod, para rastrearem instalações nos dispositivos. As informações submetidas incluem um identificador único, que não compromete a sua privacidade ou dados pessoais. Os dados são enviados durante cada inicialização.\n\nPara um exemplo dos dados que são enviados, toque em \'Pré-visualizar dados\'.</string>
+  <string name="anonymous_statistics_warning">Optar pelo envio de estatísticas LineageOS vai permitir que dados não pessoais sejam transmitidos aos desenvolvedores da LineageOS, para rastrearem instalações nos dispositivos. As informações submetidas incluem um identificador único, que não compromete a sua privacidade ou dados pessoais. Os dados são enviados durante cada inicialização.\n\nPara um exemplo dos dados que são enviados, toque em \'Pré-visualizar dados\'.</string>
   <string name="enable_reporting_title">Ativar relatório</string>
   <string name="preview_data_title">Pré-visualizar dados</string>
   <string name="view_stats_title">Ver estatísticas</string>
@@ -442,7 +442,6 @@
   <string name="preview_country_title">País</string>
   <string name="preview_carrier_title">Operadora</string>
   <string name="stats_collection_title">Coleção de estatísticas</string>
-  <string name="stats_collection_summary">Quando ativado, permite a recolha de métricas</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Rodar ecrã automaticamente</string>
   <string name="display_rotation_title">Definições de rotação</string>
@@ -481,10 +480,11 @@
   <string name="power_save_title">Poupança extrema de bateria</string>
   <string name="power_save_summary">Restringir o desempenho do dispositivo e as atividades em segundo plano para poupar energia</string>
   <string name="auto_power_save_title">Poupança de bateria automática</string>
-  <string name="auto_power_save_summary_on">Ativar automaticamente a poupança de bateria aos %s bateria</string>
+  <string name="auto_power_save_summary_on">Ativar automaticamente a poupança de bateria aos %s por cento de bateria</string>
   <string name="auto_power_save_summary_off">Não ativar automaticamente a poupança de bateria</string>
   <string name="app_perf_profiles_title">Otimização automática</string>
   <string name="app_perf_profiles_summary">Escolher automaticamemte o perfil de desempenho adequado para várias aplicações</string>
+  <string name="auto_power_save_never">Nunca</string>
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Área de trabalho expandida</string>
   <string name="expanded_desktop_settings_summary">Aumente o espaço disponível da sua área de trabalho ocultando a barra de estado, a barra de navegação ou ambos</string>
