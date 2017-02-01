@@ -465,4 +465,5 @@
   <string name="expanded_desktop_style_hide_navigation">Skjul navigasjonslinjen</string>
   <string name="expanded_desktop_style_hide_both">Skjul begge</string>
   <string name="expanded_desktop_nothing_to_show_text">Slå av for å tilpasse utvidet skrivebord på per-app basis</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

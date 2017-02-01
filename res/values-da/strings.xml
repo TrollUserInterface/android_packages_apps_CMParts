@@ -494,4 +494,5 @@
   <string name="expanded_desktop_style_hide_navigation">Skjul navigationslinje</string>
   <string name="expanded_desktop_style_hide_both">Skjul begge</string>
   <string name="expanded_desktop_nothing_to_show_text">Sluk for kontakten for at tilpasse dit udvidede skrivebord på en per app-basis</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

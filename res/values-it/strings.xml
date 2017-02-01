@@ -135,6 +135,8 @@
   <string name="live_display_color_profile_basic_summary">Usa il display non calibrato</string>
   <string name="live_display_color_profile_adaptive_title">Adattivo</string>
   <string name="live_display_color_profile_adaptive_summary">I colori si adattano alle condizioni ambientali</string>
+  <string name="live_display_color_profile_reading_title">Lettura</string>
+  <string name="live_display_color_profile_reading_summary">Colori più caldi per occhi meno affaticati</string>
   <string name="color_calibration_title">Calibrazione colore</string>
   <string name="color_calibration_summary">Calibra i colori dello schermo</string>
   <string name="color_red_title">Rosso</string>
@@ -492,4 +494,5 @@
   <string name="expanded_desktop_style_hide_navigation">Nascondi barra di navigazione</string>
   <string name="expanded_desktop_style_hide_both">Nascondi entrambe</string>
   <string name="expanded_desktop_nothing_to_show_text">Spegni l\'interruttore per personalizzare lo schermo esteso basato su ogni singola app</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

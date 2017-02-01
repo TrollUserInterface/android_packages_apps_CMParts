@@ -495,4 +495,5 @@ Informazio hau gailuaren abio bakoitzean bidaltzen da.\n\nBidalitako informazioa
   <string name="expanded_desktop_style_hide_navigation">Ezkutatu nabigazio-barra</string>
   <string name="expanded_desktop_style_hide_both">Ezkutatu biak</string>
   <string name="expanded_desktop_nothing_to_show_text">Itzali zure mahaigain hedatua aplikazioz aplikazio pertsonalizatzeko</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

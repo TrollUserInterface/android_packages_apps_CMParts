@@ -135,6 +135,8 @@
   <string name="live_display_color_profile_basic_summary">Display unkalibriert verwenden</string>
   <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
   <string name="live_display_color_profile_adaptive_summary">Farben an Umgebungsbedingungen anpassen</string>
+  <string name="live_display_color_profile_reading_title">Lesen</string>
+  <string name="live_display_color_profile_reading_summary">Wärmere Farben für weniger Augenbelastung</string>
   <string name="color_calibration_title">Farbkalibrierung</string>
   <string name="color_calibration_summary">Displayfarben kalibrieren</string>
   <string name="color_red_title">Rot</string>
@@ -495,4 +497,5 @@
   <string name="expanded_desktop_style_hide_navigation">Navigationsleiste ausblenden</string>
   <string name="expanded_desktop_style_hide_both">Beides ausblenden</string>
   <string name="expanded_desktop_nothing_to_show_text">Deaktivieren Sie den Schalter, um den erweiterten Desktop für jede App einzeln anzupassen</string>
+  <!-- Gestures: Touchscreen gestures -->
 </resources>
