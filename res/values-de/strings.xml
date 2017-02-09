@@ -498,4 +498,35 @@
   <string name="expanded_desktop_style_hide_both">Beides ausblenden</string>
   <string name="expanded_desktop_nothing_to_show_text">Deaktivieren Sie den Schalter, um den erweiterten Desktop für jede App einzeln anzupassen</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
+  <string name="touchscreen_gesture_settings_summary">Führen Sie durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Haptisches Feedback</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibrieren, wenn eine Bildschirmgeste erkannt wurde</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Mit zwei Fingern nach unten wischen</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Mit einem Finger nach oben wischen</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Mit einem Finger nach unten wischen</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Mit einem Finger nach links wischen</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Mit einem Finger nach rechts wischen</string>
+  <string name="touchscreen_gesture_up_arrow_title">Zeichnen Sie ein \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Zeichnen Sie ein \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Zeichnen Sie ein \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Zeichnen Sie ein \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Zeichnen Sie den Buchstaben \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Zeichnen Sie den Buchstaben \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Zeichnen Sie den Buchstaben \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Zeichnen Sie den Buchstaben \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Zeichnen Sie den Buchstaben \"S\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Zeichnen Sie den Buchstaben \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Zeichnen Sie den Buchstaben \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Gestenaktion</string>
+  <string name="touchscreen_gesture_action_do_nothing">Nichts tun</string>
+  <string name="touchscreen_gesture_action_flashlight">Taschenlampe ein-/ausschalten</string>
+  <string name="touchscreen_gesture_action_camera">Kamera öffnen</string>
+  <string name="touchscreen_gesture_action_browser">Browser öffnen</string>
+  <string name="touchscreen_gesture_action_dialer">Telefon-App öffnen</string>
+  <string name="touchscreen_gesture_action_email">Ihre E-Mails anzeigen</string>
+  <string name="touchscreen_gesture_action_messages">Ihre Nachrichten anzeigen</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Musikwiedergabe starten/anhalten</string>
+  <string name="touchscreen_gesture_action_previous_track">Zum vorherigen Musiktitel springen</string>
+  <string name="touchscreen_gesture_action_next_track">Zum nächsten Musiktitel springen</string>
 </resources>

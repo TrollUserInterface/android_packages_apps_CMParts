@@ -53,6 +53,7 @@
   <string name="privacy_guard_help_title">Help</string>
   <string name="privacy_guard_reset_title">Opnieuw instellen</string>
   <string name="privacy_guard_reset_text">Machtigingen opnieuw instellen?</string>
+  <string name="privacy_guard_help_text">Op dit scherm kunt u kiezen voor welke apps Privacybescherming ingeschakeld moet zijn door op ze te tikken. Geselecteerde apps zullen geen toegang hebben tot persoonsgegevens zoals contacten, berichten of gespreksstatistieken. Door een app lang aan te raken opent het info-scherm voor die app.\n\nIngebouwde apps worden standaard niet getoond, maar kunnen getoond worden door de desbetreffende optie in het menu te selecteren.</string>
   <string name="privacy_guard_manager_show_system_apps">Ingebouwde apps tonen</string>
   <string name="privacy_guard_advanced_settings_title">Geavanceerd</string>
   <string name="privacy_guard_notification_title">Melding weergeven</string>
@@ -77,7 +78,7 @@
   <string name="pulse_speed_slow">Langzaam</string>
   <string name="pulse_speed_very_slow">Heel langzaam</string>
   <!-- Battery light settings -->
-  <string name="battery_light_title">Batterij licht</string>
+  <string name="battery_light_title">Acculed</string>
   <string name="battery_low_pulse_title">Knipperen bij lage accuspanning</string>
   <string name="battery_light_list_title">Kleuren</string>
   <string name="battery_light_low_color_title">Lage accuspanning</string>
@@ -98,7 +99,7 @@
   <string name="notification_light_use_multiple_leds">Meerdere LEDs</string>
   <string name="keywords_lights_brightness_level">dimmen led LED helderheid</string>
   <string name="notification_light_automagic">Automatisch kleuren kiezen</string>
-  <string name="notification_light_automagic_summary">Kleuren worden automatsich gekozen</string>
+  <string name="notification_light_automagic_summary">Kleuren worden automatisch gekozen</string>
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Verlichtingsinstellingen</string>
   <string name="led_notification_text">LED-verlichting ingeschakeld door instellingen</string>
@@ -134,6 +135,7 @@
   <string name="live_display_color_profile_basic_summary">Scherm ongekalibreerd gebruiken</string>
   <string name="live_display_color_profile_adaptive_title">Aanpasbaar</string>
   <string name="live_display_color_profile_adaptive_summary">Kleuren passen zich aan aan de omgeving</string>
+  <string name="live_display_color_profile_reading_title">Lezen</string>
   <string name="live_display_color_profile_reading_summary">Warmere kleuren voor minder vermoeidheid van de ogen</string>
   <string name="color_calibration_title">Kleuren kalibreren</string>
   <string name="color_calibration_summary">Schermkleur kalibreren</string>
@@ -174,30 +176,41 @@
   <string name="camera_sleep_on_release_summary">Scherm aan tijdens half indrukken knop</string>
   <string name="camera_launch_title">Camera openen</string>
   <string name="camera_launch_summary">Lang indrukken en loslaten om camera te openen</string>
+  <string name="volbtn_music_controls_title">Afspelen beheren</string>
+  <string name="volbtn_music_controls_summary">Door nummers spoelen door volumeknoppen lang in te drukken als het scherm uit is</string>
   <string name="volbtn_cursor_control_title">Toetsenbordcursor</string>
   <string name="volbtn_cursor_control_off">Uitgeschakeld</string>
   <string name="volbtn_cursor_control_on">Volume omhoog/omlaag beweegt cursor naar links/rechts</string>
   <string name="volbtn_cursor_control_on_reverse">Volume omhoog/omlaag beweegt cursor naar rechts/links</string>
   <string name="power_end_call_title">Gesprek beëindigen</string>
-  <string name="power_end_call_summary">De huidige oproep beëindigen door op de aan/uit-knop te drukken</string>
+  <string name="power_end_call_summary">Huidige oproep beëindigen door op de aan/uit-knop te drukken</string>
   <string name="swap_volume_buttons_title">Oriëntatie</string>
   <string name="swap_volume_buttons_summary">Volumeknoppen omdraaien indien het scherm gedraaid is</string>
   <string name="button_wake_title">Apparaat ontwaken</string>
-  <string name="volume_answer_call_title">Aannemen gesprek</string>
+  <string name="volume_answer_call_title">Oproep beantwoorden</string>
+  <string name="volume_answer_call_summary">Inkomende oproepen beantwoorden door op de volumeknoppen te drukken</string>
   <string name="home_answer_call_title">Oproep beantwoorden</string>
+  <string name="home_answer_call_summary">Inkomende oproepen beantwoorden door op de thuisknop te drukken</string>
   <!-- Key backlight -->
-  <string name="button_backlight_title">Toetsen achtergrondverlichting</string>
+  <string name="button_backlight_title">Verlichting</string>
   <string name="button_backlight_enabled">Knoppen verlichten</string>
   <string name="keyboard_backlight_enabled">Toetsenbord verlichten</string>
-  <string name="button_backlight_seekbar_title">Knop helderheid</string>
+  <string name="button_backlight_seekbar_title">Knoppenhelderheid</string>
   <string name="keyboard_backlight_seekbar_title">Toetsenbordhelderheid</string>
-  <string name="backlight_timeout_title">Verlichtings tijd</string>
+  <string name="backlight_timeout_title">Verlichtingstime-out</string>
   <string name="backlight_timeout_unlimited">Nooit uitschakelen</string>
   <string name="backlight_summary_disabled">Uitgeschakeld</string>
-  <string name="backlight_summary_enabled_with_timeout">Aan gedurende <xliff:g id="timeout">%s</xliff:g></string>
-  <string name="backlight_summary_enabled">Aan</string>
+  <string name="backlight_summary_enabled_with_timeout">Ingeschakeld voor <xliff:g id="timeout">%s</xliff:g></string>
+  <string name="backlight_summary_enabled">Ingeschakeld</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">On-screen navigatiebalk inschakelen</string>
+  <string name="disable_navkeys_summary">On-screen navigatiebalk inschakelen en hardware-knoppen uitschakelen</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_category">Navigatiebalk</string>
+  <string name="navigation_bar_title">Knoppen en indeling</string>
+  <string name="navigation_bar_left_title">Linkshandige modus</string>
+  <string name="navigation_bar_left_summary">Navigatiebalk aan de linkerkant van het scherm weergeven in liggende stand</string>
+  <string name="navigation_bar_arrow_keys_title">Pijltjestoetsen tijdens typen</string>
   <string name="navigation_bar_arrow_keys_summary">Cursor links en rechts weergeven tijdens typen. Verbergt invoermethodepictogram.</string>
   <string name="navigation_bar_home_long_press_title">Thuisknop lang indrukken</string>
   <string name="navigation_bar_home_double_tap_title">Thuisknop twee keer indrukken</string>
@@ -216,9 +229,11 @@
   <string name="volume_keys_control_ring_stream_title">Beltoonvolume beheren</string>
   <string name="volume_keys_control_ring_stream_summary_on">Volumeknoppen passen beltoonvolume aan</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volumeknoppen passen mediavolume aan</string>
-  <string name="camera_double_tap_power_gesture_title">Druk twee keer op aan/uit knop voor camera</string>
+  <string name="camera_double_tap_power_gesture_title">Twee keer op aan/uit-knop drukken voor camera</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
-  <string name="camera_double_tap_power_gesture_desc">Snel de camera openen zonder het scherm te ontgrendelen</string>
+  <string name="camera_double_tap_power_gesture_desc">Camera snel openen zonder het scherm te ontgrendelen</string>
+  <string name="torch_long_press_power_gesture_title">Lang drukken voor zaklamp</string>
+  <string name="torch_long_press_power_gesture_desc">Zaklamp inschakelen door lang op de aan/uit-knop te drukken als het scherm uit is</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Verwijderen</string>
   <string name="profile_action_none">Niet wijzigen</string>
@@ -280,6 +295,7 @@
   <string name="rename_dialog_hint">Profielnaam invoeren</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Opnieuw instellen</string>
+  <string name="profile_reset_message">Alle gemaakte gebruikersprofielen en app-groepen verwijderen en naar standaardwaarden herstellen?</string>
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Deze app verwijderen?</string>
   <!-- Profile network mode -->
@@ -289,8 +305,9 @@
   <string name="profile_networkmode_2g3g">2G/3G</string>
   <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
   <!-- Profile Config screen PreferenceGroup titles -->
+  <string name="profile_volumeoverrides_title">Volume geforceerd wijzigen</string>
   <string name="connection_state_enabled">Inschakelen</string>
-  <string name="volume_override_summary">Zet op %1$s/%2$s</string>
+  <string name="volume_override_summary">Ingesteld op %1$s/%2$s</string>
   <string name="profile_volume_override_checkbox_label">Volume geforceerd wijzigen</string>
   <!-- Menu item for managing profiles -->
   <string name="profile_profiles_manage">Profielen</string>
@@ -360,17 +377,15 @@
   <string name="status_bar_notif_count_title">Aantal meldingen tonen</string>
   <string name="status_bar_notif_count_summary">Aantal nieuwe meldingen tonen</string>
   <string name="status_bar_quick_qs_pulldown_title">Snel openen</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Links</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Rechts</string>
+  <string name="status_bar_quick_qs_pulldown_summary">%1$s van statusbalk opent Snelle Instellingen</string>
   <string name="status_bar_quick_qs_pulldown_off">Uit</string>
-  <string name="status_bar_quick_qs_pulldown_left">Links</string>
-  <string name="status_bar_quick_qs_pulldown_right">Rechts</string>
+  <string name="status_bar_quick_qs_pulldown_left">Linkerkant</string>
+  <string name="status_bar_quick_qs_pulldown_right">Rechterkant</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_style_title">Indeling klok</string>
-  <string name="status_bar_clock_style_right">Rechts</string>
-  <string name="status_bar_clock_style_left">Links</string>
-  <string name="status_bar_clock_style_center">Gecentreerd</string>
-  <string name="status_bar_clock_style_hidden">Verborgen</string>
+  <string name="status_bar_clock_position_title">Indeling klok</string>
+  <string name="status_bar_clock_position_right">Rechts</string>
+  <string name="status_bar_clock_position_left">Links</string>
+  <string name="status_bar_clock_position_center">Midden</string>
   <string name="status_bar_am_pm_title">AM/PM-stijl</string>
   <string name="status_bar_am_pm_info">24-uurs klok is ingeschakeld</string>
   <string name="status_bar_am_pm_normal">Normaal</string>
@@ -387,14 +402,16 @@
   <string name="status_bar_battery_percentage_title">Accupercentage</string>
   <string name="status_bar_battery_percentage_default">Verborgen</string>
   <string name="status_bar_battery_percentage_text_inside">In het pictogram</string>
+  <string name="status_bar_battery_percentage_text_next">Naast het pictogram</string>
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
+  <string name="status_bar_icons_title">Statusbalkpictogrammen</string>
+  <string name="status_bar_icons_summary">Bepalen welke statusbalkpictogrammen worden weergegeven</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Beschermde apps</string>
   <string name="protected_apps_manager_summary">Beheren welke apps beschermd zijn</string>
   <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Medewerkers</string>
-  <string name="contributors_cloud_loading_message">Laden gegevens\u2026</string>
+  <string name="contributors_cloud_fragment_title">Bijdragers</string>
+  <string name="contributors_cloud_loading_message">Informatie over bijdragers laden\u2026</string>
   <string name="contributors_cloud_failed_message">Kan informatie over bijdragers niet laden</string>
   <string name="contributor_info_menu">Informatie over bijdragers</string>
   <string name="contributor_info_msg">
@@ -408,23 +425,30 @@
                  <b>Laatste update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #CM -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+  <string name="anonymous_statistics_title">LineageOS-statistieken</string>
+  <string name="anonymous_statistics_summary">Help LineageOS te verbeteren door anonieme statistieken te verzenden</string>
   <string name="anonymous_statistics_warning_title">Over</string>
   <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van LineageOS verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
   <string name="enable_reporting_title">Statistieken verzenden</string>
+  <string name="preview_data_title">Voorbeeld van gegevens</string>
+  <string name="view_stats_title">Statistieken tonen</string>
+  <string name="anonymous_learn_more">Meer informatie</string>
   <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Unieke ID</string>
+  <string name="preview_id_title">Uniek ID</string>
   <string name="preview_device_title">Apparaat</string>
   <string name="preview_version_title">Versie</string>
   <string name="preview_country_title">Land</string>
   <string name="preview_carrier_title">Provider</string>
   <string name="stats_collection_title">Verzamelen van statistieken</string>
+  <string name="stats_collection_summary">Toestaan dat installatie- en apparaatstatistieken worden verzameld</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Scherm automatisch draaien</string>
-  <string name="display_rotation_title">Rotatie instellingen</string>
+  <string name="display_rotation_title">Rotatie-instellingen</string>
   <string name="display_rotation_enabled">Auto-rotatie is ingeschakeld</string>
   <string name="display_rotation_disabled">Auto-rotatie is uitgeschakeld</string>
   <string name="display_rotation_unit">graden</string>
-  <string name="display_lockscreen_rotation_title">Vergrendelingsscherm draaien</string>
+  <string name="display_lockscreen_rotation_title">Vergrendelingsscherm automatisch draaien</string>
+  <string name="display_rotation_category_title">Draaistanden</string>
   <string name="display_rotation_0_title">0 graden</string>
   <string name="display_rotation_90_title">90 graden</string>
   <string name="display_rotation_180_title">180 graden</string>
@@ -432,7 +456,7 @@
   <!-- Weather -->
   <string name="weather_settings_title">Weer</string>
   <string name="weather_settings_no_services_prompt">Geen weeraanbiederservices geïnstalleerd</string>
-  <string name="weather_settings_no_services_summary">Installeer een weerprovider om weer updates te ontvangen</string>
+  <string name="weather_settings_no_services_summary">Installeer een weeraanbieder om weer-updates te ontvangen</string>
   <string name="weather_settings_button">Instellingen aanbieder</string>
   <string name="weather_settings_activity_not_found">Kan instellingenmenu van deze aanbieder niet openen</string>
   <string name="weather_settings_add_weather_provider">Weeraanbieder toevoegen</string>
@@ -443,7 +467,7 @@
   <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
   <string name="weather_settings_keyword">weer</string>
   <string name="status_bar_show_weather_title">Weer weergeven</string>
-  <string name="status_bar_show_weather_summary">De huidige temperatuur op de statusbalk weergeven</string>
+  <string name="status_bar_show_weather_summary">Huidige temperatuur op de statusbalk weergeven</string>
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Energiebesparing en prestaties</string>
   <string name="perf_profile_settings_summary">Instellingen energiebesparing en apparaatprestaties aanpassen</string>
@@ -453,7 +477,9 @@
   <string name="perf_profile_fail_toast">Prestatieprofiel is momenteel niet beschikbaar</string>
   <string name="power_save_category_title">Accubesparing</string>
   <string name="power_save_title">Extreme energiebesparing</string>
+  <string name="power_save_summary">Beperk de prestaties en achtergrondactiviteit van het apparaat om energie te besparen</string>
   <string name="auto_power_save_title">Automatische energiebesparing</string>
+  <string name="auto_power_save_summary_on">Energiebesparende modus automatisch inschakelen op %s accu</string>
   <string name="auto_power_save_summary_off">Energiebesparende modus niet automatisch inschakelen</string>
   <string name="app_perf_profiles_title">Automatische optimalisatie</string>
   <string name="app_perf_profiles_summary">Automatisch een passend prestatieprofiel kiezen voor verschillende apps en gebruikspatronen</string>
@@ -461,10 +487,50 @@
   <!-- Applications: Expanded desktop -->
   <string name="expanded_desktop_settings_title">Uitgebreid bureaublad</string>
   <string name="expanded_desktop_settings_summary">Uw beschikbare desktopruimte uitbreiden door de statusbalk, navigatiebalk of beide te verbergen</string>
+  <string name="expanded_desktop_options_title">Aanpassingsopties</string>
   <string name="expanded_desktop_style_title">Stijl uitgebreid bureaublad</string>
   <string name="expanded_desktop_style_hide_nothing">Niets verbergen</string>
   <string name="expanded_desktop_style_hide_status">Statusbalk verbergen</string>
   <string name="expanded_desktop_style_hide_navigation">Navigatiebalk verbergen</string>
   <string name="expanded_desktop_style_hide_both">Beide verbergen</string>
+  <string name="expanded_desktop_nothing_to_show_text">Uitschakelen om het uitgebreide bureaublad per app te kunnen aanpassen</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Opladergeluid</string>
+  <string name="charging_sounds_enabled_title">Inschakelen</string>
+  <string name="charging_sounds_enabled_summary">Geluid afspelen bij het aansluiten of loskoppelen van een lader</string>
+  <string name="power_notifications_vibrate_title">Trillen</string>
+  <string name="charging_sounds_ringtone_title">Meldingsgeluid</string>
+  <string name="charging_sounds_ringtone_silent">Stil</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Schermgebaren</string>
+  <string name="touchscreen_gesture_settings_summary">Schermgebaren gebruiken voor snelle acties</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Trillen</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Trillen wanneer een schermgebaar herkend wordt</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Omlaag vegen met twee vingers</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Omhoog vegen met één vinger</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Omlaag vegen met één vinger</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Naar links vegen met één vinger</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Naar rechts vegen met één vinger</string>
+  <string name="touchscreen_gesture_up_arrow_title">Teken een \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Teken een \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Teken een \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Teken een \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Teken een \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Teken een \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Teken een \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Teken een \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Teken een \"S\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Teken een \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Teken een \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Actie na gebaar</string>
+  <string name="touchscreen_gesture_action_do_nothing">Niets doen</string>
+  <string name="touchscreen_gesture_action_flashlight">Zaklamp aan/uit</string>
+  <string name="touchscreen_gesture_action_camera">Camera openen</string>
+  <string name="touchscreen_gesture_action_browser">Browser openen</string>
+  <string name="touchscreen_gesture_action_dialer">Telefoon-app openen</string>
+  <string name="touchscreen_gesture_action_email">E-mails bekijken</string>
+  <string name="touchscreen_gesture_action_messages">Berichten bekijken</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Muziek afspelen/pauzeren</string>
+  <string name="touchscreen_gesture_action_previous_track">Ga terug naar vorige nummer</string>
+  <string name="touchscreen_gesture_action_next_track">Spring naar volgende nummer</string>
 </resources>

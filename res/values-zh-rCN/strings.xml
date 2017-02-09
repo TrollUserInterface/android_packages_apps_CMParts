@@ -177,7 +177,7 @@
   <string name="camera_launch_title">启动相机</string>
   <string name="camera_launch_summary">长按并松开将会启动相机</string>
   <string name="volbtn_music_controls_title">播放控制</string>
-  <string name="volbtn_music_controls_summary">当屏幕关闭时，长按音量键切换音乐</string>
+  <string name="volbtn_music_controls_summary">屏幕关闭时，长按音量键切换曲目</string>
   <string name="volbtn_cursor_control_title">键盘光标控制</string>
   <string name="volbtn_cursor_control_off">已禁用</string>
   <string name="volbtn_cursor_control_on">音量+/-光标左/右移动</string>
@@ -232,6 +232,8 @@
   <string name="camera_double_tap_power_gesture_title">按两下电源按钮以启动相机</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">在不解锁屏幕的情况下快速开启相机</string>
+  <string name="torch_long_press_power_gesture_title">长按打开手电筒</string>
+  <string name="torch_long_press_power_gesture_desc">屏幕关闭时，长按电源键开启手电筒</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">删除</string>
   <string name="profile_action_none">保持不变</string>
@@ -376,17 +378,14 @@
   <string name="status_bar_notif_count_summary">显示未读通知的数量</string>
   <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
   <string name="status_bar_quick_qs_pulldown_summary">从状态栏的%1$s边缘下拉开启快速设置面板</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
   <string name="status_bar_quick_qs_pulldown_off">关闭</string>
   <string name="status_bar_quick_qs_pulldown_left">左侧</string>
   <string name="status_bar_quick_qs_pulldown_right">右侧</string>
   <!-- Status bar - Clock -->
-  <string name="status_bar_clock_style_title">时钟样式</string>
-  <string name="status_bar_clock_style_right">右侧</string>
-  <string name="status_bar_clock_style_left">左侧</string>
-  <string name="status_bar_clock_style_center">中间</string>
-  <string name="status_bar_clock_style_hidden">隐藏</string>
+  <string name="status_bar_clock_position_title">时钟位置</string>
+  <string name="status_bar_clock_position_right">右侧</string>
+  <string name="status_bar_clock_position_left">左侧</string>
+  <string name="status_bar_clock_position_center">中心</string>
   <string name="status_bar_am_pm_title">上午 / 下午样式</string>
   <string name="status_bar_am_pm_info">24 小时制时钟已启用</string>
   <string name="status_bar_am_pm_normal">正常</string>
@@ -407,9 +406,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">状态栏图标</string>
   <string name="status_bar_icons_summary">控制显示哪些状态栏图标</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">双击以睡眠</string>
-  <string name="status_bar_double_tap_to_sleep_summary">双击状态栏以关闭屏幕显示</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">受保护的应用</string>
   <string name="protected_apps_manager_summary">管理安全锁隐藏的应用</string>
@@ -498,5 +494,43 @@
   <string name="expanded_desktop_style_hide_navigation">隐藏导航栏</string>
   <string name="expanded_desktop_style_hide_both">同时隐藏</string>
   <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">充电提示音</string>
+  <string name="charging_sounds_enabled_title">启用</string>
+  <string name="charging_sounds_enabled_summary">连接或断开电源时发出声音</string>
+  <string name="power_notifications_vibrate_title">振动</string>
+  <string name="charging_sounds_ringtone_title">提示音</string>
+  <string name="charging_sounds_ringtone_silent">静音</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">触摸屏手势</string>
+  <string name="touchscreen_gesture_settings_summary">为快捷操作采用各种触摸屏手势</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">触觉反馈</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">检测到一个触摸屏手势时振动</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">双指向下滑动</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">单指向上滑动</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">单指向下滑动</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">单指向左滑动</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">单指向右滑动</string>
+  <string name="touchscreen_gesture_up_arrow_title">绘制一个\"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">绘制一个\"Λ\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">绘制一个\"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">绘制一个\"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">绘制字母\"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">绘制字母\"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">绘制字母\"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">绘制字母\"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">绘制字母\"S\"</string>
+  <string name="touchscreen_gesture_letter_w_title">绘制字母\"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">绘制字母\"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">手势操作</string>
+  <string name="touchscreen_gesture_action_do_nothing">不进行任何操作</string>
+  <string name="touchscreen_gesture_action_flashlight">切换手电筒</string>
+  <string name="touchscreen_gesture_action_camera">打开相机</string>
+  <string name="touchscreen_gesture_action_browser">打开浏览器</string>
+  <string name="touchscreen_gesture_action_dialer">打开拨号器</string>
+  <string name="touchscreen_gesture_action_email">查看您的电子邮件</string>
+  <string name="touchscreen_gesture_action_messages">查看您的信息</string>
+  <string name="touchscreen_gesture_action_play_pause_music">播放/暂停音乐播放</string>
+  <string name="touchscreen_gesture_action_previous_track">转到上一曲目</string>
+  <string name="touchscreen_gesture_action_next_track">转到下一曲目</string>
 </resources>

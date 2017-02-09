@@ -186,7 +186,7 @@
   <string name="power_end_call_summary">Avslutt anropet ved å trykke på strømknappen</string>
   <string name="swap_volume_buttons_title">Reorientere</string>
   <string name="swap_volume_buttons_summary">Tilpass volumknappene ettersom skjermen er rotert</string>
-  <string name="button_wake_title">Våkne enhet</string>
+  <string name="button_wake_title">Vekke enhet</string>
   <string name="volume_answer_call_title">Besvar anrop</string>
   <string name="volume_answer_call_summary">Besvar innkommende anrop ved å trykke på volumknappene</string>
   <string name="home_answer_call_title">Besvar anrop</string>
@@ -203,7 +203,18 @@
   <string name="backlight_summary_enabled_with_timeout">Aktivert for <xliff:g id="timeout">%s</xliff:g></string>
   <string name="backlight_summary_enabled">Aktivert</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">Aktiver navigasjonsfelt på skjermen</string>
+  <string name="disable_navkeys_summary">Aktiverer navigasjonsfelt på skjermen og deaktiverer de fysiske knappene</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_category">Navigasjonsfelt</string>
+  <string name="navigation_bar_title">Knapper og oppsett</string>
+  <string name="navigation_bar_left_title">Venstrehendt modus</string>
+  <string name="navigation_bar_left_summary">Plasser navigasjonsfeltet til venstre på skjermen i liggende modus</string>
+  <string name="navigation_bar_arrow_keys_title">Vis piltastene mens du skriver</string>
+  <string name="navigation_bar_arrow_keys_summary">Vise venstre og høyre markørknapper mens du skriver. Overstyrer IME skifter.</string>
+  <string name="navigation_bar_home_long_press_title">Hjem langt trykk handling</string>
+  <string name="navigation_bar_home_double_tap_title">Hjem dobbelttrykk handling</string>
+  <string name="navigation_bar_recents_title">Siste langt trykk handling</string>
   <!-- Power menu -->
   <string name="power_menu_title">Av/På meny</string>
   <string name="power_menu_reboot_title">Omstartsmeny</string>
@@ -221,6 +232,8 @@
   <string name="camera_double_tap_power_gesture_title">Dobbeltrykk strøm-knappen for å åpne kamera</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Åpne kameraet raskt uten å låse opp skjermen</string>
+  <string name="torch_long_press_power_gesture_title">Hold inne for lommelykt</string>
+  <string name="torch_long_press_power_gesture_desc">Aktiver lommelykten ved å holde inne strøm-knappen mens skjermen er av</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Slett</string>
   <string name="profile_action_none">La stå uendret</string>
@@ -365,18 +378,34 @@
   <string name="status_bar_notif_count_summary">Vis antall ventende varsler</string>
   <string name="status_bar_quick_qs_pulldown_title">Rask rullegardinmeny</string>
   <string name="status_bar_quick_qs_pulldown_summary">Ved å dra ned fra %1$s side av statuslinjen, drar du ned Hurtiginnstillingene</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">venstre</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">høyre</string>
   <string name="status_bar_quick_qs_pulldown_off">Av</string>
   <string name="status_bar_quick_qs_pulldown_left">Venstre</string>
   <string name="status_bar_quick_qs_pulldown_right">Høyre</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_position_title">Klokkeposisjon</string>
+  <string name="status_bar_clock_position_right">Høyre</string>
+  <string name="status_bar_clock_position_left">Venstre</string>
+  <string name="status_bar_clock_position_center">I midten</string>
+  <string name="status_bar_am_pm_title">AM/PM stil</string>
+  <string name="status_bar_am_pm_info">24-timers klokke er aktivert</string>
+  <string name="status_bar_am_pm_normal">Normal</string>
+  <string name="status_bar_am_pm_small">Liten</string>
+  <string name="status_bar_am_pm_hidden">Skjult</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_title">Stil på batteriikon</string>
+  <string name="status_bar_battery_style_icon_portrait">Stående ikon</string>
+  <string name="status_bar_battery_style_icon_landscape">Liggende ikon</string>
+  <string name="status_bar_battery_style_circle">Sirkel</string>
+  <string name="status_bar_battery_style_text">Tekst</string>
+  <string name="status_bar_battery_style_hidden">Skjult</string>
   <!-- Status bar - Battery percentage -->
+  <string name="status_bar_battery_percentage_title">Batteri prosent</string>
+  <string name="status_bar_battery_percentage_default">Skjult</string>
+  <string name="status_bar_battery_percentage_text_inside">Inne i ikonet</string>
+  <string name="status_bar_battery_percentage_text_next">Ved siden av ikonet</string>
   <!-- Status bar - icon blacklist -->
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Dobbeltrykk for å sove</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Dobbelttrykk på statuslinjen for å slå av skjermen</string>
+  <string name="status_bar_icons_title">Statuslinjeikoner</string>
+  <string name="status_bar_icons_summary">Kontroller hvilke av status ikonene som skal vises</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Beskyttede apper</string>
   <string name="protected_apps_manager_summary">Administrer hvilke apper som er skjult bak en sikkerhetslås</string>
@@ -465,5 +494,40 @@
   <string name="expanded_desktop_style_hide_navigation">Skjul navigasjonslinjen</string>
   <string name="expanded_desktop_style_hide_both">Skjul begge</string>
   <string name="expanded_desktop_nothing_to_show_text">Slå av for å tilpasse utvidet skrivebord på per-app basis</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Lade-lyder</string>
+  <string name="charging_sounds_enabled_title">Aktiver</string>
+  <string name="charging_sounds_enabled_summary">Spill av en lyd når du kobler til eller kobler fra en strømkilde</string>
+  <string name="power_notifications_vibrate_title">Vibrer</string>
+  <string name="charging_sounds_ringtone_title">Varslingslyd</string>
+  <string name="charging_sounds_ringtone_silent">Lydløs</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Berøringsskjerm bevegelser</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Haptisk tilbakemelding</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Dra ned med to fingre</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Dra opp med en finger</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Dra ned med en finger</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Dra til venstre med en finger</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Dra til høyre med en finger</string>
+  <string name="touchscreen_gesture_up_arrow_title">Tegn en \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Tegn en \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Tegn en \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Tegn en \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Tegn bokstaven \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Tegn bokstaven \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Tegn bokstaven \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Tegn bokstaven \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Tegn bokstaven \"S\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Tegn bokstaven \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Tegn bokstaven \"Z\"</string>
+  <string name="touchscreen_gesture_action_do_nothing">Ikke gjør noe</string>
+  <string name="touchscreen_gesture_action_flashlight">Slå av/på lommelykten</string>
+  <string name="touchscreen_gesture_action_camera">Åpne kameraet</string>
+  <string name="touchscreen_gesture_action_browser">Åpne nettleseren</string>
+  <string name="touchscreen_gesture_action_dialer">Åpne telefonen</string>
+  <string name="touchscreen_gesture_action_email">Se e-postene dine</string>
+  <string name="touchscreen_gesture_action_messages">Se meldingene dine</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Spill av/pause musikkavspilling</string>
+  <string name="touchscreen_gesture_action_previous_track">Gå til forrige musikkspor</string>
+  <string name="touchscreen_gesture_action_next_track">Hopp til neste musikkspor</string>
 </resources>
