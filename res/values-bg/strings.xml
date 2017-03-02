@@ -385,6 +385,16 @@
   <string name="status_bar_quick_qs_pulldown_off">Изключен</string>
   <string name="status_bar_quick_qs_pulldown_left">Вляво</string>
   <string name="status_bar_quick_qs_pulldown_right">Вдясно</string>
+  <string name="status_bar_toggle_brightness">Контрол на яркостта</string>
+  <string name="status_bar_toggle_brightness_summary">Настройване на яркостта чрез плъзгане в лентата на състоянието</string>
+  <string name="status_bar_double_tap_to_sleep_title">Двукратно почукване за заспиване</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Двукратно почукване върху лентата на състоянието изключва на дисплея</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Икони на лентата</string>
+  <string name="status_bar_notif_count_title">Брой известия</string>
+  <string name="status_bar_notif_count_summary">Показва броя на новите известия в лентата на състоянието</string>
+  <string name="status_bar_system_icons_title">Системни икони</string>
+  <string name="status_bar_system_icons_summary">Изберете, кои икони да се показват в лентата на състоянието</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_style_title">Местоположение на часовника</string>
   <string name="status_bar_clock_style_right">Вдясно</string>
@@ -397,6 +407,7 @@
   <string name="status_bar_am_pm_small">Малък</string>
   <string name="status_bar_am_pm_hidden">Скрит</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Батерия</string>
   <string name="status_bar_battery_style_title">Икона на батерията</string>
   <string name="status_bar_battery_style_icon_portrait">Вертикална икона</string>
   <string name="status_bar_battery_style_icon_landscape">Хоризонтална икона</string>
@@ -502,6 +513,13 @@
   <string name="expanded_desktop_style_hide_navigation">Скриване на лентата за навигация</string>
   <string name="expanded_desktop_style_hide_both">Скрий и двете</string>
   <string name="expanded_desktop_nothing_to_show_text">Изключите персонализирането на вашия разширен екран на база на броя на приложенията</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Звуци при зареждане</string>
+  <string name="charging_sounds_enabled_title">Активиране</string>
+  <string name="charging_sounds_enabled_summary">Възпроизвежда звук, когато включвате или изключвате източник на захранване</string>
+  <string name="power_notifications_vibrate_title">Вибрация</string>
+  <string name="charging_sounds_ringtone_title">Тон за уведомяване</string>
+  <string name="charging_sounds_ringtone_silent">Без звук</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gesture_settings_title">Тъчскрийн жестове</string>
   <string name="touchscreen_gesture_settings_summary">Изпълнява различни бързи действия чрез жестове върху сензорния екран</string>
@@ -521,6 +539,7 @@
   <string name="touchscreen_gesture_letter_o_title">Изпишете буквата \"О\"</string>
   <string name="touchscreen_gesture_letter_m_title">Изпишете буквата \"M\"</string>
   <string name="touchscreen_gesture_letter_s_title">Изпишете буквата \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Изпишете буквата \"V\"</string>
   <string name="touchscreen_gesture_letter_w_title">Изпишете буквата \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Изпишете буквата \"Z\"</string>
   <string name="touchscreen_gesture_action_dialog_title">Жестове</string>

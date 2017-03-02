@@ -234,6 +234,8 @@
   <string name="camera_double_tap_power_gesture_title">Avaa kamera painamalla virtanäppäintä kahdesti</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Avaa kamera nopeasti avaamatta laitteen näyttöä</string>
+  <string name="torch_long_press_power_gesture_title">Paina pitkään käynnistääksesi taskulampun</string>
+  <string name="torch_long_press_power_gesture_desc">Aktivoi taskulamppu painamalla virtanäppäintä pitkään näytön ollessa pois päältä</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Poista</string>
   <string name="profile_action_none">Poistu tallentamatta</string>
@@ -372,10 +374,6 @@
   <string name="doze_title">Ambient-näyttö</string>
   <!-- Status bar -->
   <string name="status_bar_title">Tilapalkki</string>
-  <string name="status_bar_toggle_brightness">Kirkkauden säätö</string>
-  <string name="status_bar_toggle_brightness_summary">Säädä kirkkautta liu\'ttamalla tilapalkkia pitkin</string>
-  <string name="status_bar_notif_count_title">Näytä ilmoitusten määrä</string>
-  <string name="status_bar_notif_count_summary">Näyttää ilmoitusten määrän</string>
   <string name="status_bar_quick_qs_pulldown_title">Nopea avaaminen</string>
   <string name="status_bar_quick_qs_pulldown_summary">Näytä pika-asetukset vedettäessä ilmoitusvalikko alas näytön %1$s reunasta</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">Vasen reuna</string>
@@ -383,6 +381,16 @@
   <string name="status_bar_quick_qs_pulldown_off">Pois</string>
   <string name="status_bar_quick_qs_pulldown_left">Vasen reuna</string>
   <string name="status_bar_quick_qs_pulldown_right">Oikea reuna</string>
+  <string name="status_bar_toggle_brightness">Kirkkauden säätö</string>
+  <string name="status_bar_toggle_brightness_summary">Säädä kirkkautta liu\'ttamalla tilapalkkia pitkin</string>
+  <string name="status_bar_double_tap_to_sleep_title">Lepotila kaksoisnapautuksella</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Sulje laitteen näyttö tuplanapauttamalla tilapalkkia</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Tilapalkin kuvakkeet</string>
+  <string name="status_bar_notif_count_title">Näytä ilmoitusten määrä</string>
+  <string name="status_bar_notif_count_summary">Näyttää ilmoitusten määrän</string>
+  <string name="status_bar_system_icons_title">Järjestelmän kuvakkeet</string>
+  <string name="status_bar_system_icons_summary">Määritä mitkä tilapalkin kuvakkeet näytetään</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_style_title">Kellon tyyli</string>
   <string name="status_bar_clock_style_right">Oikea reuna</string>
@@ -395,6 +403,7 @@
   <string name="status_bar_am_pm_small">Pieni</string>
   <string name="status_bar_am_pm_hidden">Piilotettu</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Akun varaus</string>
   <string name="status_bar_battery_style_title">Akkunäytön ulkoasu</string>
   <string name="status_bar_battery_style_icon_portrait">Kuvake (pysty)</string>
   <string name="status_bar_battery_style_icon_landscape">Kuvake (vaaka)</string>
@@ -499,6 +508,13 @@
   <string name="expanded_desktop_style_hide_navigation">Piilota navigointipalkki</string>
   <string name="expanded_desktop_style_hide_both">Piilota molemmat</string>
   <string name="expanded_desktop_nothing_to_show_text">Poista käytöstä mukauttaaksesi laajennetun työpöydän asetuksia sovelluskohtaisesti</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Latausäänet</string>
+  <string name="charging_sounds_enabled_title">Ota käyttöön</string>
+  <string name="charging_sounds_enabled_summary">Anna äänimerkki, kun virtalähde liitetään tai irrotetaan</string>
+  <string name="power_notifications_vibrate_title">Värinä</string>
+  <string name="charging_sounds_ringtone_title">Ilmoitusääni</string>
+  <string name="charging_sounds_ringtone_silent">Äänetön</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gesture_settings_title">Kosketusnäytön eleet</string>
   <string name="touchscreen_gesture_settings_summary">Tee erilaisia kosketusnäytön eleitä käyttääksesi pikatoimintoja</string>

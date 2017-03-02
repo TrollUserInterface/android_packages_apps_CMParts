@@ -374,10 +374,6 @@
   <string name="doze_title">Display Ambient</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra di stato</string>
-  <string name="status_bar_toggle_brightness">Controllo luminosità</string>
-  <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
-  <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
-  <string name="status_bar_notif_count_summary">Visualizza il numero di notifiche in sospeso</string>
   <string name="status_bar_quick_qs_pulldown_title">Impostazioni rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Scorri la barra di stato verso il basso da %1$s per aprire le impostazioni rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">Sinistra</string>
@@ -385,6 +381,16 @@
   <string name="status_bar_quick_qs_pulldown_off">Off</string>
   <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
   <string name="status_bar_quick_qs_pulldown_right">Destra</string>
+  <string name="status_bar_toggle_brightness">Controllo luminosità</string>
+  <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
+  <string name="status_bar_double_tap_to_sleep_title">Doppio tocco per sospendere</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Tocca due volte la barra di stato per sospendere il dispositivo</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Icone barra di stato</string>
+  <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
+  <string name="status_bar_notif_count_summary">Visualizza il numero di notifiche in sospeso</string>
+  <string name="status_bar_system_icons_title">Icone di sistema</string>
+  <string name="status_bar_system_icons_summary">Controlla quali icone vengono visualizzate nella barra di stato</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_style_title">Stile orologio</string>
   <string name="status_bar_clock_style_right">Destra</string>
@@ -397,6 +403,7 @@
   <string name="status_bar_am_pm_small">Piccolo</string>
   <string name="status_bar_am_pm_hidden">Nascosto</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Indicatore batteria</string>
   <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
   <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
   <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
@@ -498,5 +505,44 @@
   <string name="expanded_desktop_style_hide_navigation">Nascondi barra di navigazione</string>
   <string name="expanded_desktop_style_hide_both">Nascondi entrambe</string>
   <string name="expanded_desktop_nothing_to_show_text">Spegni l\'interruttore per personalizzare lo schermo esteso basato su ogni singola app</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Suoni di ricarica</string>
+  <string name="charging_sounds_enabled_title">Attiva</string>
+  <string name="charging_sounds_enabled_summary">Riproduci un suono quando si collega o si scollega l\'alimentatore</string>
+  <string name="power_notifications_vibrate_title">Vibra</string>
+  <string name="charging_sounds_ringtone_title">Suono di notifica</string>
+  <string name="charging_sounds_ringtone_silent">Silenzioso</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+  <string name="touchscreen_gesture_settings_summary">Esegui vari movimenti sul touchscreen per azioni rapide</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Feedback tattile</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibra quando viene rilevata una gesture</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Scorri verso il basso con due dita</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Scorri verso l\'alto con un dito</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Scorri verso il basso con un dito</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Scorri a sinistra con un dito</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Scorri verso destra con un dito</string>
+  <string name="touchscreen_gesture_up_arrow_title">Disegna \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Disegna \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Disegna \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Disegna \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Disegna la lettera \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Disegna la lettera \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Disegna la lettera \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Disegna la lettera \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Disegna la lettera \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Disegna la lettera \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Disegna la lettera \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Disegna la lettera \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Azione gesture</string>
+  <string name="touchscreen_gesture_action_do_nothing">Non far nulla</string>
+  <string name="touchscreen_gesture_action_flashlight">Attiva/Disattiva torcia</string>
+  <string name="touchscreen_gesture_action_camera">Apri fotocamera</string>
+  <string name="touchscreen_gesture_action_browser">Apri browser</string>
+  <string name="touchscreen_gesture_action_dialer">Apri dialer</string>
+  <string name="touchscreen_gesture_action_email">Visualizza email</string>
+  <string name="touchscreen_gesture_action_messages">Visualizza messaggi</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Play/Pausa riproduzione musica</string>
+  <string name="touchscreen_gesture_action_previous_track">Passa al brano precedente</string>
+  <string name="touchscreen_gesture_action_next_track">Passa alla traccia successiva</string>
 </resources>
