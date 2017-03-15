@@ -174,6 +174,8 @@
   <string name="hardware_keys_action_sleep">Vypnúť obrazovku</string>
   <string name="hardware_keys_action_last_app">Posledná aplikácia</string>
   <string name="hardware_keys_action_split_screen">Rozdelená obrazovka</string>
+  <string name="hardware_keys_action_single_handed_left">Režim jednej ruky (vľavo)</string>
+  <string name="hardware_keys_action_single_handed_right">Režim jednej ruky (vpravo)</string>
   <string name="camera_sleep_on_release_title">Náhľad obrazovky</string>
   <string name="camera_sleep_on_release_summary">Polovičné stlačenie rozsvieti obrazovku iba vtedy, kým je tlačidlo držané</string>
   <string name="camera_launch_title">Spustiť fotoaparát</string>
@@ -383,10 +385,14 @@
   <string name="status_bar_quick_qs_pulldown_right">vpravo</string>
   <string name="status_bar_toggle_brightness">Ovládanie jasu</string>
   <string name="status_bar_toggle_brightness_summary">Nastaviť jas posúvaním po stavovom riadku</string>
+  <string name="status_bar_double_tap_to_sleep_title">Uspať dvojitým poklepaním</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Vypnutie obrazovky dvojitým kliknutím na stavový riadok</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Ikony stavového riadku</string>
   <string name="status_bar_notif_count_title">Zobraziť počítadlo oznámení</string>
   <string name="status_bar_notif_count_summary">Zobraziť počet čakajúcich oznámení na ikone v stavovom riadku</string>
+  <string name="status_bar_system_icons_title">Systémové ikony</string>
+  <string name="status_bar_system_icons_summary">Upraviť zobrazenie ikon v stavovom riadku</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_style_title">Štýl hodín</string>
   <string name="status_bar_clock_style_right">Vpravo</string>
@@ -399,6 +405,7 @@
   <string name="status_bar_am_pm_small">Malý</string>
   <string name="status_bar_am_pm_hidden">Skryté</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Indikátor stavu batérie</string>
   <string name="status_bar_battery_style_title">Zobrazenie stavu batérie</string>
   <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
   <string name="status_bar_battery_style_icon_landscape">Ikona na šírku</string>
@@ -503,5 +510,44 @@
   <string name="expanded_desktop_style_hide_navigation">Skryť navigačný panel</string>
   <string name="expanded_desktop_style_hide_both">Skryť oba</string>
   <string name="expanded_desktop_nothing_to_show_text">Vypnite prepínač upravenia rozšírenej plochy na základe aplikácií</string>
+  <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Zvuky pri nabíjaní</string>
+  <string name="charging_sounds_enabled_title">Povoliť</string>
+  <string name="charging_sounds_enabled_summary">Prehrať zvuk pri pripojení alebo odpojení zdroja nabíjania</string>
+  <string name="power_notifications_vibrate_title">Vibrovať</string>
+  <string name="charging_sounds_ringtone_title">Zvuk upozornenia</string>
+  <string name="charging_sounds_ringtone_silent">Tichý</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Gestá na dotykovej obrazovke</string>
+  <string name="touchscreen_gesture_settings_summary">Vykonávať rôzne gestá na dotykovej obrazovke pre rýchle akcie</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Hmatová odozva</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibrovať ak je detekované gesto na dotykovej obrazovke</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Potiahnite nadol dvomi prstami</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Potiahnutie jedným prstom nahor</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Potiahnutie jedným prstom nadol</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Potiahnutie jedným prstom doľava</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Potiahnutie jedným prstom doprava</string>
+  <string name="touchscreen_gesture_up_arrow_title">Nakreslite znak \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Nakreslite znak \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Nakreslite znak \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Nakreslite znak \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Nakreslite písmeno \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Nakreslite písmeno \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Nakreslite písmeno \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Nakreslite písmeno \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Nakreslite písmeno \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Nakreslite písmeno \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Nakreslite písmeno \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Nakreslite písmeno \"Z\"</string>
+  <string name="touchscreen_gesture_action_dialog_title">Gestá</string>
+  <string name="touchscreen_gesture_action_do_nothing">Nerobiť nič</string>
+  <string name="touchscreen_gesture_action_flashlight">Zapnúť baterku</string>
+  <string name="touchscreen_gesture_action_camera">Spustiť fotoaparát</string>
+  <string name="touchscreen_gesture_action_browser">Otvoriť prehliadač</string>
+  <string name="touchscreen_gesture_action_dialer">Vytočiť hovor</string>
+  <string name="touchscreen_gesture_action_email">Zobrazenie e-mailov</string>
+  <string name="touchscreen_gesture_action_messages">Zobrazenie správ</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Spustiť/zastaviť prehrávanie hudby</string>
+  <string name="touchscreen_gesture_action_previous_track">Spustiť predchádzajúcu skladbu</string>
+  <string name="touchscreen_gesture_action_next_track">Preskočiť na ďalšiu skladbu</string>
 </resources>
