@@ -15,27 +15,27 @@
 	limitations under the License.
 -->
 <resources>
-    <color name="theme_accent">#ff009688</color>
-    <color name="navbar_edit_icon_color">#607d8b</color>
+    <color name="theme_accent">#4285f4</color>
+    <color name="navbar_edit_icon_color">@color/theme_accent</color>
     <color name="divider">#ffe0e0e0</color>
     <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
 
     <color name="divider_color">#20ffffff</color>
 
-    <color name="switchbar_background_color">#ff37474f</color>
+    <color name="switchbar_background_color">@*android:color/material_blue_grey_800</color>
     <color name="switchbar_text_color">#ffffffff</color>
-    <color name="switch_accent_color">#ff7fcac3</color>
+    <color name="switch_accent_color">@color/theme_accent</color>
 
     <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
-    <color name="fab_shape">?android:attr/colorAccent</color>
+    <color name="fab_shape">@color/theme_accent</color>
 
     <!-- Contributors -->
     <color name="contributors_cloud_fg_color">@color/theme_accent</color>
-    <color name="contributors_cloud_selected_color">#ff5252</color>
+    <color name="contributors_cloud_selected_color">@color/theme_accent</color>
 
-    <color name="weather_settings_icon_tint">#B4B9BA</color>
+    <color name="weather_settings_icon_tint">@color/theme_accent</color>
 
-    <color name="perf_hot">#ffd10015</color>
-    <color name="perf_cold">#ff005994</color>
+    <color name="perf_hot">@color/theme_accent</color>
+    <color name="perf_cold">@color/theme_accent</color>
 
 </resources>
