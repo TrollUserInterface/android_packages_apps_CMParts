@@ -33,8 +33,6 @@
     <color name="contributors_cloud_fg_color">@color/theme_accent</color>
     <color name="contributors_cloud_selected_color">@color/theme_accent</color>
 
-    <color name="weather_settings_icon_tint">@color/theme_accent</color>
-
     <color name="perf_hot">@color/theme_accent</color>
     <color name="perf_cold">@color/theme_accent</color>
 
